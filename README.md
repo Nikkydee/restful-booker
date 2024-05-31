@@ -16,10 +16,10 @@
 To get a local copy of the program running, follow these simple steps
 
 ### Prerequisites
-- Postman should be fine too
+- Postman should be intalled
 - To run using CLI, Install nodejs. Once installation of node and npm has been confirmed 
-- run 'npm install -g newman
-- verify installation with newman -v
+- run 'npm install -g newman'
+- verify installation with command 'newman -v'
 
   
 
@@ -32,8 +32,8 @@ To get a local copy of the program running, follow these simple steps
 - Open a command line terminal (Git bash preferrably) and navigate to a directory where you would like to save the work folder using cd.
 - Clone the repository with git clone https://github.com/Nikkydee/restful-booker.git
 - To get the current working tree, git fetch --all, then checkout to "main" branch.
-- Finally, import the project to postman 
-- Open, right-click on the collection ans select run collection
+- Finally, import the project[postman collection and environment variable] to postman 
+- Open, right-click on the collection and select run collection
 ### Setup- newman runner
 
    - Invariably, tests can be run on CLI using newman runner

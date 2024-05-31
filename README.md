@@ -7,9 +7,9 @@
 - Postman
 - newman runner
 - Github
-- Extent report
+- html report
 - nodejs
-- 
+  
 
 
 ## Getting Started

@@ -1,4 +1,4 @@
- UI Automated Tests
+ API Automated Tests
 
 
 > "This repository contains the automated API task provided in the assessment.
@@ -17,7 +17,7 @@ To get a local copy of the program running, follow these simple steps
 
 ### Prerequisites
 - Postman should be fine too
-- To run using CLI, Install nodejs . Once installation of node and npm has been confirmed 
+- To run using CLI, Install nodejs. Once installation of node and npm has been confirmed 
 - run 'npm install -g newman
 - verify installation with newman -v
 
@@ -33,11 +33,11 @@ To get a local copy of the program running, follow these simple steps
 - Clone the repository with git clone https://github.com/Nikkydee/restful-booker.git
 - To get the current working tree, git fetch --all, then checkout to "main" branch.
 - Finally, import the project to postman 
-    - Open, right-click on the collection ans select run collection
+- Open, right-click on the collection ans select run collection
 ### Setup- newman runner
 
    - Invariably, tests can be run on CLI using newman runner
-   -Open terminal or cmd >> navigate to the JSON file loctation
+   -Open terminal or cmd >> navigate to the JSON file location
    - run this command 'newman run Restful-booker.postman_collection -e Booking.postman_environment
    - generate report using this command 'newman run Restful-booker.postman_collection -e Booking.postman_environment -r html
 
